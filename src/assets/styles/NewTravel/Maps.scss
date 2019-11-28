@@ -1,3 +1,18 @@
-#map {
-    height: 90%;
-  }
+.Map 
+{
+  height: 95%;
+    margin-top: 3%;
+    width: 100%;
+    border: none;
+}
+
+.MapContainer
+{
+  width: 100%;
+
+  overflow: hidden;
+  background: #292828;
+}
+
+
+

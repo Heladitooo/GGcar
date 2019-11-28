@@ -1,11 +1,14 @@
 import React from 'react';
+import '../../assets/styles/NewTravel/Maps.scss';
 import '../../assets/styles/NewTravel/Maps.scss'
-import Map from './DirectionsApi/index.html'
 
 const Maps = () => {
-    return(
-        <source src={Map}/>
-    )
+   return(
+       <section className="MapContainer">
+       <iframe src="../API/index.html"  className="Map"></iframe>
+
+       </section>
+   )
 }
 
 export default Maps;

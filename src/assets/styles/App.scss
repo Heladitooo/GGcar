@@ -7,3 +7,20 @@ body
 {
     margin: 0;
 }
+
+* ::-webkit-scrollbar {
+    background: #292828;
+    width: 10px;
+  }
+
+  
+
+  * ::-webkit-scrollbar-thumb
+  {
+      background: #707070;
+  }
+
+  * ::-webkit-scrollbar-thumb:hover
+  {
+      background: #f2f2f2;
+  }
